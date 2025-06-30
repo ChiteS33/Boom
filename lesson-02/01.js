@@ -13,18 +13,14 @@ const isVerifiedUser = true
 const hasSpecialPermission = true
 const hasTemporaryPass = false
 
-let isAccess = false
+let isAccess
 
 
 
 // your code
 
-while (isAccess === false)
-    if (isAdmin === false && isVerifiedUser === false) {
-
-    }
-     else if (hasSpecialPermission === false && hasTemporaryPass === false) {
-
-     }
-    else
-        isAccess = true
+if(isAdmin === false && isVerifiedUser === false ){
+  isAccess = false
+}else if (hasSpecialPermission === false && hasTemporaryPass === false){
+  isAccess = false
+} else isAccess = true
