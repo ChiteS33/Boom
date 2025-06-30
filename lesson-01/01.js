@@ -9,5 +9,4 @@ while (counter <= 20) {
     sum = sum + counter
     counter += 1
     console.log(sum);
-
 }
