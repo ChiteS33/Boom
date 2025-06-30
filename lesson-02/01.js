@@ -13,6 +13,18 @@ const isVerifiedUser = true
 const hasSpecialPermission = true
 const hasTemporaryPass = false
 
-let isAccess
+let isAccess = false
+
+
 
 // your code
+
+while (isAccess === false)
+    if (isAdmin === false && isVerifiedUser === false) {
+        alert('Проблема с isAdmin или isVerifiedUser ')
+    } else if (hasSpecialPermission === false && hasTemporaryPass === false) {
+        alert('Проблема с hasSpecialPermission или hasTemporaryPass')
+    } else {
+        isAccess = true
+        alert('Доступ разрешён')
+    }
