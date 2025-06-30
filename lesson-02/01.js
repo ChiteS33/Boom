@@ -20,9 +20,11 @@ let isAccess = false
 // your code
 
 while (isAccess === false)
-    if (isAdmin === false && isVerifiedUser === false) 
+    if (isAdmin === false && isVerifiedUser === false) {
 
-     else if (hasSpecialPermission === false && hasTemporaryPass === false) 
+    }
+     else if (hasSpecialPermission === false && hasTemporaryPass === false) {
 
+     }
     else
         isAccess = true
