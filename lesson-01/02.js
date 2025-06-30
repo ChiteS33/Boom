@@ -12,5 +12,5 @@ let counter = 1;
 while (counter <= 10) {
   factorial = factorial * counter
   counter++
-  console.log(factorial);
+  
   }
