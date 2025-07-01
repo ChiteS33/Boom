@@ -3,7 +3,7 @@
 // function findLargest() {}
 
 
-function functionfindLargest(a,b,c){
+function findLargest(a,b,c){
 if ((a < b) && (b > c)) {
     hex = b
 } else if (a < c) {
