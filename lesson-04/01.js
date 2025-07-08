@@ -13,14 +13,3 @@
 includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
 
-function includesElement(a,b){
-let kek = false
-
-for (let i = 0; i < a.length; i++) {
-    if (a[i] === b) {
-        kek = true
-    }
-}
-   
-return kek
-}
