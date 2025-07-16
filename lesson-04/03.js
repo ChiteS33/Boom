@@ -21,10 +21,15 @@ findCommonElements([1, 2, 3], [2, 3, 4]) // [2, 3]
 
 function findCommonElements(a, b) {
 
-    let thirdArray = []
-    for (let i = 0; i < b.length; i++) {
-        if (a.includes(b[i])) {
-            thirdArray.push(b[i])
+    let thirdArray = a.concat(b)
+    let fourArray = []
+
+    for (let i = 0; i < thirdArray.length; i++) {
+        let x = thirdArray[i]
+        delete thirdArray[i]
+
+        if (thirdArray.includes(x)) {
+            fourArray.push(x)
         }
-    } return thirdArray
+    } return fourArray
 }
