@@ -15,4 +15,15 @@
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
-function findUniqueElements() {}
+
+function findUniqueElements(a, b) {
+  for (let i = 0; i < a.length; i++) {
+    if (!b.includes(a[i])) {
+      b.push(a[i])
+    }
+
+  } return b
+}
+
+// const kek = findUniqueElements(mainArray, secondArray)
+// console.log(kek)
