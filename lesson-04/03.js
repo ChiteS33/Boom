@@ -19,10 +19,12 @@ findCommonElements([1, 2, 3], [2, 3, 4]) // [2, 3]
 
 // function findCommonElements() {}
 
-function findCommonElements(a, b, c) {
+function findCommonElements(a, b) {
+
+    let thirdArray = []
     for (let i = 0; i < b.length; i++) {
         if (a.includes(b[i])) {
-            c.push(b[i])
+            thirdArray.push(b[i])
         }
-    } return c
+    } return thirdArray
 }

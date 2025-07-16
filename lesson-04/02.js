@@ -16,13 +16,15 @@
 */
 
 
-function findUniqueElements(a, b) {
+function findUniqueElements(a) {
+const secondArray = []
+
   for (let i = 0; i < a.length; i++) {
-    if (!b.includes(a[i])) {
-      b.push(a[i])
+    if (!secondArray.includes(a[i])) {
+      secondArray.push(a[i])
     }
 
-  } return b
+  } return secondArray
 }
 
 // const kek = findUniqueElements(mainArray, secondArray)

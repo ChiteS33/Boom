@@ -13,8 +13,9 @@
 */
 
 // function doubleEachCharacter() {}
-function doubleEachCharacter(a){
 
+function doubleEachCharacter(a){
+  let newName
   let b = a.split("") 
   let c =[]
 
