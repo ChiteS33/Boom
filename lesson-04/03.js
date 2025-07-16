@@ -33,3 +33,18 @@ function findCommonElements(a, b) {
         }
     } return fourArray
 }
+
+
+
+// function findCommonElements(a, b) {
+
+//     let thirdArray = []
+//     for (let i = 0; i < b.length; i++) {
+//         if (a.includes(b[i])) {
+//             thirdArray.push(b[i])
+//         }
+//     } return thirdArray
+// }
+
+// const kek = findCommonElements(mainArray, secondArray)
+// console.log(kek)
