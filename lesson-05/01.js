@@ -16,13 +16,13 @@ const game = {
     lumber: 100,
   },
 
-  addResource(a, b) {
-if (!(a in this.resources)){
+  addResource(resource, amount) {
+if (!(resource in this.resources)){
   console.log("Invalid resource")
   return
 }
-this.resources[a] += b
+this.resources[resource] += amount
 
-return this.resources[a]
+return this.resources[resource]
   }
 }
