@@ -37,7 +37,6 @@ const gallery = {
 
 // function updateGallery() {}
 
-function updateGallery (nameGallery, key, value){
-  nameGallery[key] = value
-return
+const updateGallery = (nameGallery, key, value) => {
+  return nameGallery[key] = value
 }
