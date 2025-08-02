@@ -23,10 +23,10 @@ const oddNumbers = filter(numbers, (element, index) => {
 console.log(oddNumbers) // Должен вывести: [1, 3, 5]
 */
 
-const filter = (array, callback) => {
-    const finalArray =[]
-array.forEach(el => {
-callback(el) ? finalArray.push(el) : 0
-})
-    return finalArray
+const filter = (array, validator) => {
+  const finalArray = []
+  for (let i = 0; i < array.length; i++) {
+    validator(array[i]) ? finalArray.push(array[i]) : 0
+  }
+  return finalArray
 }
