@@ -10,6 +10,6 @@ let factorial = 1;
 let counter = 1;
 
 while (counter <= 10) {
-  factorial = factorial * counter
+  factorial *= counter
   counter++
    }
