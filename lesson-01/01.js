@@ -5,6 +5,7 @@
 let sum = 0;
 let counter = 1;
 
-for(let i = 1; i <= 20; i++){
-    sum += i
+while (counter <= 20) {
+    sum += counter
+    counter += 1
 }
